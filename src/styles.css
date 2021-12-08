@@ -1,0 +1,118 @@
+/** {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  
+  
+  h1,h2 {
+  
+    font-family: "Inter", sans-serif;
+  
+    font-weight: 700;
+  
+    color: hsl(0, 0%, 100%);
+  
+  }
+  
+  
+  
+  p {
+  
+    font-family: "Lexend Deca", sans-serif;
+  
+    color: hsla(0, 0%, 100%, 0.6);
+  
+    font-size: 15px;
+  
+  }
+  
+  .details p {
+  
+    font-size: 0.7em;
+  
+    text-transform: uppercase;
+  
+    margin-top: 7px;
+  
+  }
+  
+  
+  
+  span {
+  
+    color: hsl(277, 64%, 61%);
+  
+  }
+  body {
+
+    background: hsl(208, 49%, 7%);
+  
+  }
+  
+  
+  
+  .container {
+  
+    height: 100vh;
+  
+    display: grid;
+  
+    align-content: center;
+  
+    justify-content: center;
+  
+  }
+  
+  
+  
+  section {
+  
+    display: grid;
+  
+    grid-template-columns: 50% 50%;
+  
+    align-content: center;
+  
+    justify-content: center;
+  
+    background: hsl(244, 38%, 16%);
+  
+    border-radius: 10px;
+  
+  }
+  
+  
+  
+  .header {
+  
+    font-size: 35px;
+  
+    margin-top: 50px;
+  
+    margin-left: 80px;
+  
+    margin-right: 80px;
+  
+  }
+  
+  
+  
+  .header_text {
+  
+    line-height: 25px;
+  
+    grid-row: 2;
+  
+    margin-top: 30px;
+  
+    margin-left: 80px;
+  
+    margin-right: 80px;
+  
+  }*/

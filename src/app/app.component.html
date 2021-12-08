@@ -1,0 +1,62 @@
+<!---<h1 appHighlight>hello</h1>
+<h1>{{'harini'| lowercase}}</h1>
+<h1>{{'harini'| uppercase}}</h1>
+<h1>{{'420' | currency}}</h1>
+<h1>{{dateExample | date}}</h1>
+<h1>{{'607' | percent}}</h1>
+
+
+<h1>{{'420' | currency:'INR'}}</h1>
+<h1>{{dateExample | date}}</h1>
+<h1>{{dateExample | date:'long'}}</h1>
+<h1>{{dateExample | date:'short'}}</h1>
+<h1>{{dateExample | date: 'dd/MM/yy'}}</h1>
+<h1>{{'0.8213' | percent:'3.2-2'}}</h1>
+
+
+<h1>{{dateExample | date  |  lowercase}}</h1>
+<h1>{{'420' | currency:'INR' |  uppercase}}</h1>
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Upper Case Pipe</h4>
+    <p ngNonBindable>{{'Welcome to Angular Pipes' | uppercase}}</p>
+    <p>{{'Welcome to Angular Pipes' | uppercase}}</p>
+  </div>
+</div>
+
+
+<table border="1">
+  <tr>
+    <td>name</td>
+    <td>age</td>
+  </tr>
+  <tr ngFor="let name of names">
+
+    <td>{{name,fname}}</td>
+    <td>{{name,age}}</td>
+    </tr>
+  </tr>
+</table>--->
+
+<form (ngSubmit)="onSubmit(myForm)" #myform="ngForm">
+  <input type="text" ng-model="firstname">
+</form>
+<form>
+   <input type="text" ng-model="lastname">
+</form>
+<form>
+  gender
+  <input type="radio" ng-model="myVar" value="male">male
+  <input type="radio" ng-model="myVar" value="female">female
+  
+</form>
+<form>
+  Select a topic:
+  <select ng-model="myVar">
+    <option value="">
+    <option value="maths">maths
+    <option value="science">science
+    <option value="english">english
+  </select>
+</form>
